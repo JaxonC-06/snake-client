@@ -10,17 +10,19 @@ const setupInput = function (conn) {
   return stdin;
 };
 
+const keyMap = {
+  w: 'Move: up',
+  a: 'Move: left',
+  s: 'Move: down',
+  d: 'Move: right'
+};
+
 const handleUserInput = function (key) {
   if (key === "\u0003") {
     process.exit();
-  } else if (key === "w") {
-    connection.write("Move: up");
-  } else if (key === "a") {
-    connection.write("Move: left");
-  } else if (key === "s") {
-    connection.write("Move: down");
-  } else if (key === "d") {
-    connection.write("Move: right");
+  }
+  if (keyMap[key]) {
+    connection.write(keyMap[key]);
   }
 };
 
