@@ -14,7 +14,7 @@ const keyMap = {
   '2': "Say: See you later!",
   '3': "Say: Oh, so close!",
   '4': "Say: LOL",
-  '5': "Say: gotcha!"
+  '5': "Say: Gotcha!",
 };
 
 // Export the constants
