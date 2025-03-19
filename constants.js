@@ -1,5 +1,10 @@
+// The IP  address for the client is a constant
 const IP = 'localhost';
+
+// The PORT used to communicate is also a constant
 const PORT = 50541;
+
+// Each key is linked to a command that either logs input or a message to other users.
 const keyMap = {
   w: 'Move: up',
   a: 'Move: left',
@@ -12,6 +17,7 @@ const keyMap = {
   '5': "Say: gotcha!"
 };
 
+// Export the constants
 module.exports = {
   IP,
   PORT,
