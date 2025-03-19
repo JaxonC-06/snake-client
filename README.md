@@ -9,7 +9,7 @@ BEFORE you can run the client, you will need to run the server side which can be
 ## Final Product
 
 !["Screen once player is connected"](<Snake Client Startup.png>)
-!["Demonstration of snake game"](<video controls src="Snake Demo.mp4" title="Title"></video>)
+!["Demonstration of snake game"]<video controls src="Snake Demo.mp4" title="Title"></video>
 
 ## Getting Started
 
